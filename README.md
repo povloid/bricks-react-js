@@ -1,1 +1,1 @@
-# bricks-react-path-store-components
+# bricks-react
