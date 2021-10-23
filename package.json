@@ -17,5 +17,9 @@
     },
     "scripts": {
         "test": "jest"
+    },
+    "dependencies": {
+        "bricks-fp": "^1.0.7",
+        "bricks-path-store": "^1.0.1"
     }
 }
