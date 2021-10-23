@@ -6,6 +6,4 @@ class PathStoreConsumer extends PathStoreComponent {
     }
 }
 
-module.exports = {
-    PathStoreConsumer
-}
+module.exports = PathStoreConsumer
