@@ -1,9 +1,7 @@
-const PathStoreComponent = require('./PathStoreComponent')
+import { PathStoreComponent } from './PathStoreComponent'
 
-class PathStoreConsumer extends PathStoreComponent {
+export class PathStoreConsumer extends PathStoreComponent {
     render({ children }) {
         return children(this.store.getStateIn(this.path))
     }
 }
-
-module.exports = PathStoreConsumer

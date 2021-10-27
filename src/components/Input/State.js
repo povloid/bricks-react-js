@@ -1,6 +1,6 @@
-const { assign } = require('bricks-fp')
+import { assign } from 'bricks-fp'
 
-const inputInitState = () =>
+export const inputInitState = () =>
     assign(
         {},
         {
@@ -8,11 +8,5 @@ const inputInitState = () =>
         }
     )
 
-const inputSetValue = (state, value) => assign({}, state, { value })
-const inputGetValue = ({ value }) => value
-
-module.exports = {
-    inputInitState,
-    inputSetValue,
-    inputGetValue
-}
+export const inputSetValue = (state, value) => assign({}, state, { value })
+export const inputGetValue = ({ value }) => value

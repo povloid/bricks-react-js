@@ -1,6 +1,6 @@
-const { Component } = require('react')
+import { Component } from 'react'
 
-class PathStoreComponent extends Component {
+export class PathStoreComponent extends Component {
     constructor(props) {
         super(props)
 
@@ -44,5 +44,3 @@ class PathStoreComponent extends Component {
     //     return !Object.is(this.state, nextState)
     // }
 }
-
-module.exports = PathStoreComponent

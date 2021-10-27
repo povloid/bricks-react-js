@@ -1,8 +1,8 @@
 {
     "name": "bricks-react",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "bricks for react js",
-    "module": "src/index.js",
+    "module": "./index.js",
     "repository": "git@github.com:povloid/bricks-react-js.git",
     "author": "Pavel Kopychenko <t34box@gmail.com>",
     "license": "MIT",

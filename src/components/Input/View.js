@@ -1,7 +1,7 @@
-const { PathStoreComponent } = require('../../index')
-const { inputGetValue, inputSetValue } = require('./State')
+import { PathStoreComponent } from '../../index'
+import { inputGetValue, inputSetValue } from './State'
 
-class Input extends PathStoreComponent {
+export class Input extends PathStoreComponent {
     render({ placeholder }) {
         const state = this.getLocalState()
         const value = inputGetValue(state)
@@ -20,5 +20,3 @@ class Input extends PathStoreComponent {
         )
     }
 }
-
-module.exports = Input
